@@ -1,0 +1,290 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{    
+    background-image: url("img/inicio.jpg");
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+}
+
+#portada{   
+    width: 1170px;
+    height: auto;
+    float: left;
+    left: 5px;
+}
+
+.forma{    
+    position: absolute;
+    height: 100%;    
+    width: 400px;
+    background:rgb(248, 246, 246);
+    float:right;
+    right: 25px;
+    color: black;    
+    font-weight: bold;
+}
+
+.mb-3{
+    margin: 20px;
+}
+
+button{
+    margin: 20px;
+    width: 130px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    background-color: rgb(38, 114, 236);
+    border-radius: 5px;
+    border: 0px;
+}
+
+button:hover{
+    background-color: rgb(118, 159, 235);
+}
+
+#logo{
+    margin: 0.5em;
+    padding: auto;
+    text-align: center;
+}
+
+.form-control{
+    width: 100%;
+}
+
+p{
+    margin: 0.5em;
+}
+
+a{
+    color: #2672ec;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#panel{
+    background-color: #2975b6;
+    height: 100%;
+    width: 350px;
+    border-radius: 2px;
+    position:absolute;
+    float: left;
+    text-align:center;
+    color: white;
+    z-index: 2;
+}
+
+#footerLinks{
+    font-size: 10px;
+    color: blue;
+    margin-top: 300px;
+    padding: 0px;
+}
+
+.pageLink{
+    padding-left: 16px;
+    text-decoration: none;    
+}
+
+.error{
+    position: absolute;
+    color: rgb(139, 0, 0);
+    right: 100px;
+    z-index: 99;
+    margin-top: 15px;
+    padding: 0px;
+}
+
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+#salir{ 
+    position: absolute;
+    left: 3px;
+    z-index: 5;
+    margin-top: 2px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+#salir:hover{
+    background-color: rgb(255, 255, 255);    
+}
+
+#salir h3:hover{
+    color: darkblue;
+}
+
+#salida{
+    color: white;
+    font-weight: bold;
+}
+
+#header{
+    margin: auto;
+    width: 350px;  
+    position: absolute;    
+    z-index: 3;
+    margin-top: 280px;
+    padding: 0px;
+    text-align: center;
+}
+
+ul,ol{
+    list-style: none;    
+}
+
+.nav li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px 15px;
+    display: block;    
+}
+
+.nav li a:hover{
+    background-color: rgb(69, 148, 172);
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    left: 350px;    
+    top: 0px;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+#foto{
+    z-index: 4;
+    position: relative;
+    left: 80px;
+    top: 50px;
+}
+
+#foto img{
+    display: block;
+    border-radius: 100px;  
+    width: 150px;
+    height: 150px;
+}
+
+#eva img{
+    z-index: 4;
+    left: 110px;
+    top: 650px;
+    position: absolute;
+    width: 50px;
+    height: auto;
+}
+
+#sidebar-nav{
+ background-color: rgb(39, 99, 228);
+ height: auto;
+ width: 300px;
+ z-index: 4;
+}
+
+.list-group-item{
+    background-color: rgb(39, 99, 228);
+    color: azure;
+    border: 1px solid rgb(3 37 201 / 13%);
+    padding: 0.6rem 1rem;
+    text-decoration: none;position: relative;
+    display: block;
+    font-size: 20px;
+    top: 100px;
+}
+
+.list-group-item:hover{
+    background-color: rgb(53, 110, 233);
+    color: rgb(169, 214, 216);
+}
+
+#items{
+    top: 300px;
+}
+
+#fecha{
+    position: relative;
+    display: block;
+    top: 10px;
+    left: 80%;
+}
+
+.border rounded-3 p-1 text-decoration-none{
+    text-align: center;
+}
+
+h2{
+    color: rgb(53, 110, 233);
+    font-size: 30px;
+}
+
+.btn {
+    background-color: rgb(53, 110, 233);
+    color: white;
+    padding: 20px 10px;
+    align-items: center;
+    margin: 10px 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#chartContainer{
+    display: block;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+#atras{
+ display: block;
+ position:absolute;
+ text-align: center;
+ padding: 20px 30px;
+ margin: 30px 30px;
+ top: 40px;
+ right: 50px; 
+}
+
+h5{
+    font-size: 60px;
+    color: blue;
+}
+
+#atras a{
+    color: rgb(48, 48, 230);
+    font-weight: bold;
+}
+
+h4 {
+    font-size:28px;
+    color:#d9870b;
+    font-family:helvetica;
+    font-weight:bold;    
+    text-transform:uppercase;
+    text-align: center;
+  }
+
+  #secciones{
+    background-color: #b7c0d8;
+  }
