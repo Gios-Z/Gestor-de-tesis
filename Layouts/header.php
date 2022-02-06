@@ -50,7 +50,7 @@
                             echo '<img src="data:url/jpeg;base64,' . base64_encode($_SESSION['image']) . '"/>'
                             ?>
                         </div>
-                        <br><br>
+                        <br><br><br>
                         <a href="?profesor=Tutorias" class="list-group-item" data-bs-parent="#sidebar"><span>Tutorias</span> </a>
                         <a href="?profesor=Solicitudes" class="list-group-item" data-bs-parent="#sidebar"><span>Solicitudes</span> </a>
                         <br><br><br><br><br><br><br><BR></BR>
